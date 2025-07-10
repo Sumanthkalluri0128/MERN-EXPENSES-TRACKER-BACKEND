@@ -14,7 +14,7 @@ mongoose
   .catch((e) => console.log(e));
 //!cors config
 const corsOption = {
-  origin: ["https://myexpense-track.netlify.app/"],
+  origin: ["https://myexpense-track.netlify.app"],
   method: ["GET", "POST"],
   Credentials: true,
 };
