@@ -16,7 +16,7 @@ mongoose
 const corsOption = {
   origin: ["https://myexpense-track.netlify.app"],
   method: ["GET", "POST"],
-  Credentials: true,
+  credentials: true,
 };
 app.use(cors(corsOption));
 //!middlewares
